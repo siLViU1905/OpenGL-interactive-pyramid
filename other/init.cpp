@@ -19,7 +19,7 @@ bool init(GLFWwindow*& window, const char* name, int width, int height)
         return false;
 
 
-    glEnable(GL_DEPTH_TEST);  // Enable depth testing for 3D
+    glEnable(GL_DEPTH_TEST);
 
     return true;
 }
